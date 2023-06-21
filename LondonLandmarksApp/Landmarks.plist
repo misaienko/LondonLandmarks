@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Places</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Big Ben</string>
+			<key>Image</key>
+			<string>BigBen</string>
+			<key>Address</key>
+			<string>London SW1A 0AA</string>
+			<key>Description</key>
+			<string>Big Ben is probably the world&apos;s most famous clock. That iconic silhouette is instantly recognisable and is one of the most Instagrammed landmarks on the planet. Six monarchs and 41 prime ministers have come and gone since the bells first struck their now familiar music across Westminster.</string>
+			<key>Latitude</key>
+			<string>51.50072919999999</string>
+			<key>Longitude</key>
+			<string>-0.12462540000001354</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Buckingham Palace</string>
+			<key>Image</key>
+			<string>BuckinghamPalace</string>
+			<key>Address</key>
+			<string>London SW1A 1AA</string>
+			<key>Description</key>
+			<string>Buckingham Palace has served as the official London residence of the UK&apos;s sovereigns since 1837 and today is the administrative headquarters of the Monarch.</string>
+			<key>Latitude</key>
+			<string>51.501364</string>
+			<key>Longitude</key>
+			<string>-0.1418899999999894</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>London Eye</string>
+			<key>Image</key>
+			<string>LondonEye</string>
+			<key>Address</key>
+			<string>London SE1 7 PB</string>
+			<key>Description</key>
+			<string>At 135m, The London Eye is the world&apos;s largest cantilevered observation wheel. It was conceived and designed by Marks Barfield Architects and was launched in 2000. It has won over 85 awards for national and international tourism, outstanding architectural quality and engineering achievement.</string>
+			<key>Latitude</key>
+			<string>51.50090949999999</string>
+			<key>Longitude</key>
+			<string>-0.11953229999994619</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>St Paul&apos;s Cathedral</string>
+			<key>Image</key>
+			<string>St-Pauls</string>
+			<key>Address</key>
+			<string>London EC4M 8AD</string>
+			<key>Description</key>
+			<string>Joining the likes of the Roman Pantheon, St Paul&apos;s Cathedral boasts one of the biggest domes in the world at 366 feet high. Scale hundreds of steps to the top and bask in the architecture - don&apos;t forget to spend some time in its famous Whispering Gallery on the way up.</string>
+			<key>Latitude</key>
+			<string>51.5138453</string>
+			<key>Longitude</key>
+			<string>-0.0983506000000034</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Tower Bridge</string>
+			<key>Image</key>
+			<string>TowerBridge</string>
+			<key>Address</key>
+			<string>London SE1 2UP</string>
+			<key>Description</key>
+			<string>Tower Bridge is famous because it&apos;s London&apos;s most striking bridge thanks to its Neo-Gothic architecture and lifting central sections. When it opened, it was the most sophisticated bascule bridge in the world.
+</string>
+			<key>Latitude</key>
+			<string>51.5054564</string>
+			<key>Longitude</key>
+			<string>-0.07535649999999805</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Westminster Abbey</string>
+			<key>Image</key>
+			<string>WestminsterAbbey</string>
+			<key>Address</key>
+			<string>London SW1P 3PA</string>
+			<key>Description</key>
+			<string>With its burial sites for kings, queens, writers, and scientists, its long, rich history, and its importance as a coronation site for English and British monarchs, Westminster Abbey is one of the most awe-inspiring churches in the world to visit.</string>
+			<key>Latitude</key>
+			<string>51.4994174</string>
+			<key>Longitude</key>
+			<string>-0.1275705000000471</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84661C332A37B8EF008EEF6D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 84661C322A37B8EE008EEF6D /* MapPin.m */; };
+		84A2C5332A3775B6001BDF34 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2C5322A3775B6001BDF34 /* DetailViewController.m */; };
+		84A2C5362A377948001BDF34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A2C5352A377948001BDF34 /* MapKit.framework */; };
 		84E2D0C22A33CD840061A580 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0C12A33CD840061A580 /* AppDelegate.m */; };
 		84E2D0C52A33CD840061A580 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0C42A33CD840061A580 /* SceneDelegate.m */; };
-		84E2D0C82A33CD840061A580 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0C72A33CD840061A580 /* ViewController.m */; };
 		84E2D0CB2A33CD840061A580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D0C92A33CD840061A580 /* Main.storyboard */; };
 		84E2D0CD2A33CD860061A580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D0CC2A33CD860061A580 /* Assets.xcassets */; };
 		84E2D0D02A33CD860061A580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D0CE2A33CD860061A580 /* LaunchScreen.storyboard */; };
@@ -17,6 +19,9 @@
 		84E2D0DD2A33CD860061A580 /* LondonLandmarksAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0DC2A33CD860061A580 /* LondonLandmarksAppTests.m */; };
 		84E2D0E72A33CD860061A580 /* LondonLandmarksAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0E62A33CD860061A580 /* LondonLandmarksAppUITests.m */; };
 		84E2D0E92A33CD860061A580 /* LondonLandmarksAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0E82A33CD860061A580 /* LondonLandmarksAppUITestsLaunchTests.m */; };
+		84E2D0F72A33D06C0061A580 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0F62A33D06C0061A580 /* TableViewController.m */; };
+		84E2D0FA2A33D0940061A580 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2D0F92A33D0940061A580 /* TableViewCell.m */; };
+		84E2D0FC2A33D4310061A580 /* Landmarks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E2D0FB2A33D4310061A580 /* Landmarks.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84661C312A37B8EE008EEF6D /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		84661C322A37B8EE008EEF6D /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		84A2C5312A3775B6001BDF34 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84A2C5322A3775B6001BDF34 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		84A2C5352A377948001BDF34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		84E2D0BD2A33CD840061A580 /* LondonLandmarksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonLandmarksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E2D0C02A33CD840061A580 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E2D0C12A33CD840061A580 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84E2D0C32A33CD840061A580 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		84E2D0C42A33CD840061A580 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		84E2D0C62A33CD840061A580 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E2D0C72A33CD840061A580 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E2D0CA2A33CD840061A580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E2D0CC2A33CD860061A580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E2D0CF2A33CD860061A580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +62,11 @@
 		84E2D0E22A33CD860061A580 /* LondonLandmarksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonLandmarksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E2D0E62A33CD860061A580 /* LondonLandmarksAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonLandmarksAppUITests.m; sourceTree = "<group>"; };
 		84E2D0E82A33CD860061A580 /* LondonLandmarksAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LondonLandmarksAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		84E2D0F52A33D06C0061A580 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84E2D0F62A33D06C0061A580 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		84E2D0F82A33D0940061A580 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		84E2D0F92A33D0940061A580 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		84E2D0FB2A33D4310061A580 /* Landmarks.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Landmarks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A2C5362A377948001BDF34 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A2C5342A377948001BDF34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A2C5352A377948001BDF34 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84E2D0B42A33CD840061A580 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,7 @@
 				84E2D0DB2A33CD860061A580 /* LondonLandmarksAppTests */,
 				84E2D0E52A33CD860061A580 /* LondonLandmarksAppUITests */,
 				84E2D0BE2A33CD840061A580 /* Products */,
+				84A2C5342A377948001BDF34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,13 +131,20 @@
 				84E2D0C12A33CD840061A580 /* AppDelegate.m */,
 				84E2D0C32A33CD840061A580 /* SceneDelegate.h */,
 				84E2D0C42A33CD840061A580 /* SceneDelegate.m */,
-				84E2D0C62A33CD840061A580 /* ViewController.h */,
-				84E2D0C72A33CD840061A580 /* ViewController.m */,
+				84E2D0F52A33D06C0061A580 /* TableViewController.h */,
+				84E2D0F62A33D06C0061A580 /* TableViewController.m */,
+				84E2D0F82A33D0940061A580 /* TableViewCell.h */,
+				84E2D0F92A33D0940061A580 /* TableViewCell.m */,
+				84A2C5312A3775B6001BDF34 /* DetailViewController.h */,
+				84A2C5322A3775B6001BDF34 /* DetailViewController.m */,
+				84661C312A37B8EE008EEF6D /* MapPin.h */,
+				84661C322A37B8EE008EEF6D /* MapPin.m */,
 				84E2D0C92A33CD840061A580 /* Main.storyboard */,
 				84E2D0CC2A33CD860061A580 /* Assets.xcassets */,
 				84E2D0CE2A33CD860061A580 /* LaunchScreen.storyboard */,
 				84E2D0D12A33CD860061A580 /* Info.plist */,
 				84E2D0D22A33CD860061A580 /* main.m */,
+				84E2D0FB2A33D4310061A580 /* Landmarks.plist */,
 			);
 			path = LondonLandmarksApp;
 			sourceTree = "<group>";
@@ -241,6 +271,7 @@
 			files = (
 				84E2D0D02A33CD860061A580 /* LaunchScreen.storyboard in Resources */,
 				84E2D0CD2A33CD860061A580 /* Assets.xcassets in Resources */,
+				84E2D0FC2A33D4310061A580 /* Landmarks.plist in Resources */,
 				84E2D0CB2A33CD840061A580 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,10 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E2D0C82A33CD840061A580 /* ViewController.m in Sources */,
 				84E2D0C22A33CD840061A580 /* AppDelegate.m in Sources */,
 				84E2D0D32A33CD860061A580 /* main.m in Sources */,
 				84E2D0C52A33CD840061A580 /* SceneDelegate.m in Sources */,
+				84661C332A37B8EF008EEF6D /* MapPin.m in Sources */,
+				84E2D0FA2A33D0940061A580 /* TableViewCell.m in Sources */,
+				84E2D0F72A33D06C0061A580 /* TableViewController.m in Sources */,
+				84A2C5332A3775B6001BDF34 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
